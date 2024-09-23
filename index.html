@@ -23,10 +23,11 @@
   <body>
     <div class="layout-container">
       <!-- Sidebar menu desktop -->
-      <aside class="sidebar-container">
-        <div class="sidebar-logo">  
+      <aside class="sidebar-container d-none__mobile">
+        <div class="sidebar-logo">
           <h3>Postagram</h3>
         </div>
+
         <nav>
           <ul class="sidebar-menu">
             <li>
@@ -70,178 +71,240 @@
       </aside>
 
       <!-- card section grid -->
-      <main class="main-content">
-        <div class="main-content__header">
-          <h3>For you</h3>
-        </div>
+      <div class="w-full">
+        <header class="header__mobile d-none__desktop">
+          <div class="sidebar-logo">
+            <h3>Postagram</h3>
+          </div>
+          <a href="settings.html" aria-label="settings">
+            <i class="fa-solid fa-gear"></i>
+          </a>
+        </header>
 
-        <section class="cards-section">
-        <article>
-          <div class="card-container">
-            <!-- image section -->
-            <div class="card__image">
-              <img
-                src="/assets/images/pexels-alexmoliski-27084970.jpg"
-                alt="Post image"
-              />
-            </div>
+        <main class="main-content">
+          <div class="main-content__header d-none__mobile">
+            <h3>For you</h3>
+          </div>
 
-            <!-- profile details section -->
-            <div class="card__profile-section">
-              <a class="flex-row" href="profile.html">
-                <span class="d-flex"
-                  ><img
+          <section class="cards-section">
+            <article class="card-container">
+              <a href="detail.html">
+                <!-- image section -->
+                <div class="card__image">
+                  <img
+                    src="/assets/images/pexels-alexmoliski-27084970.jpg"
+                    alt="Post image"
+                  />
+                </div>
+
+                <!-- profile details section -->
+                <div class="card__profile-section">
+                  <a class="flex-row" href="profile.html">
+                    <span class="d-flex"
+                      ><img
+                        class="profile-img"
+                        src="/assets/images/pexels-olly-774909.jpg"
+                        alt=""
+                        srcset=""
+                    /></span>
+                    <div class="card__profile-details">
+                      <p class="card__profile-details-name">name</p>
+                      <p class="card__profile-details-likes">3523 likes</p>
+                    </div>
+                  </a>
+                  <div>
+                    <a class="flex-row favorites-link" href="favorites.html">
+                      <span><i class="fa-regular fa-heart fa-icon"></i></span>
+                    </a>
+                  </div>
+                </div>
+
+                <!-- overlay section -->
+                <div class="card__overlay">
+                  <p class="card__overlay-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Alias incidunt sunt dolor.
+                  </p>
+                </div>
+              </a>
+            </article>
+            <article class="card-container">
+              <a href="detail.html">
+                <!-- image section -->
+                <div class="card__image">
+                  <img
+                    src="/assets/images/pexels-alexmoliski-27084970.jpg"
+                    alt="Post image"
+                  />
+                </div>
+
+                <!-- profile details section -->
+                <div class="card__profile-section">
+                  <a class="flex-row" href="profile.html">
+                    <span class="d-flex"
+                      ><img
+                        class="profile-img"
+                        src="/assets/images/pexels-olly-774909.jpg"
+                        alt=""
+                        srcset=""
+                    /></span>
+                    <div class="card__profile-details">
+                      <p class="card__profile-details-name">name</p>
+                      <p class="card__profile-details-likes">3523 likes</p>
+                    </div>
+                  </a>
+                  <div>
+                    <a class="flex-row favorites-link" href="favorites.html">
+                      <span><i class="fa-regular fa-heart fa-icon"></i></span>
+                    </a>
+                  </div>
+                </div>
+
+                <!-- overlay section -->
+                <div class="card__overlay">
+                  <p class="card__overlay-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Alias incidunt sunt dolor.
+                  </p>
+                </div>
+              </a>
+            </article>
+            <article class="card-container">
+              <a href="detail.html">
+                <!-- image section -->
+                <div class="card__image">
+                  <img
+                    src="/assets/images/pexels-alexmoliski-27084970.jpg"
+                    alt="Post image"
+                  />
+                </div>
+
+                <!-- profile details section -->
+                <div class="card__profile-section">
+                  <a class="flex-row" href="profile.html">
+                    <span class="d-flex"
+                      ><img
+                        class="profile-img"
+                        src="/assets/images/pexels-olly-774909.jpg"
+                        alt=""
+                        srcset=""
+                    /></span>
+                    <div class="card__profile-details">
+                      <p class="card__profile-details-name">name</p>
+                      <p class="card__profile-details-likes">3523 likes</p>
+                    </div>
+                  </a>
+                  <div>
+                    <a class="flex-row favorites-link" href="favorites.html">
+                      <span><i class="fa-regular fa-heart fa-icon"></i></span>
+                    </a>
+                  </div>
+                </div>
+
+                <!-- overlay section -->
+                <div class="card__overlay">
+                  <p class="card__overlay-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Alias incidunt sunt dolor.
+                  </p>
+                </div>
+              </a>
+            </article>
+            <article class="card-container">
+              <a href="detail.html">
+                <!-- image section -->
+                <div class="card__image">
+                  <img
+                    src="/assets/images/pexels-alexmoliski-27084970.jpg"
+                    alt="Post image"
+                  />
+                </div>
+
+                <!-- profile details section -->
+                <div class="card__profile-section">
+                  <a class="flex-row" href="profile.html">
+                    <span class="d-flex"
+                      ><img
+                        class="profile-img"
+                        src="/assets/images/pexels-olly-774909.jpg"
+                        alt=""
+                        srcset=""
+                    /></span>
+                    <div class="card__profile-details">
+                      <p class="card__profile-details-name">name</p>
+                      <p class="card__profile-details-likes">3523 likes</p>
+                    </div>
+                  </a>
+                  <div>
+                    <a class="flex-row favorites-link" href="favorites.html">
+                      <span><i class="fa-regular fa-heart fa-icon"></i></span>
+                    </a>
+                  </div>
+                </div>
+
+                <!-- overlay section -->
+                <div class="card__overlay">
+                  <p class="card__overlay-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Alias incidunt sunt dolor.
+                  </p>
+                </div>
+              </a>
+            </article>
+          </section>
+        </main>
+
+        <footer class="footer-section d-none__mobile">
+          <div class="footer__container">
+            <nav>
+              <ul class="footer__nav-items">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="explore.html">Explore</a></li>
+                <li><a href="favorites.html">Favorites</a></li>
+                <li><a href="profile.html">Profile</a></li>
+              </ul>
+              <div class="footer__logo">
+                <h3>Postagram</h3>
+              </div>
+            </nav>
+          </div>
+        </footer>
+        <footer class="footer__nav-items-mobile d-none__desktop">
+          <nav>
+            <ul class="footer-menu">
+              <li>
+                <a class="flex-row" href="index.html" aria-label="Home">
+                  <i class="fa-solid fa-house fa-icon"></i>
+                </a>
+              </li>
+              <li>
+                <a class="flex-row" href="explore.html" aria-label="Explore">
+                  <i class="fa-solid fa-magnifying-glass fa-icon"></i>
+                </a>
+              </li>
+              <li>
+                <a
+                  class="flex-row"
+                  href="favorites.html"
+                  aria-label="Favorites"
+                >
+                  <i class="fa-regular fa-heart fa-icon"></i>
+                </a>
+              </li>
+              <li class="profile-link__container">
+                <a class="flex-row" href="profile.html" aria-label="Profile">
+                  <img
                     class="profile-img"
                     src="/assets/images/pexels-olly-774909.jpg"
                     alt=""
                     srcset=""
-                /></span>
-                <div class="card__profile-details">
-                  <p class="card__profile-details-name">name</p>
-                  <p class="card__profile-details-likes">3523 likes</p>
-                </div>
-              </a>
-              <div>
-                <a class="flex-row favorites-link" href="favorites.html">
-                  <span><i class="fa-regular fa-heart fa-icon"></i></span>
+                  />
                 </a>
-              </div>
-            </div>
-
-            <!-- overlay section -->
-            <div class="card__overlay">
-              <p class="card__overlay-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
-                incidunt sunt dolor.
-              </p>
-            </div>
-          </div>
-        </article>
-        <article>
-          <div class="card-container">
-            <!-- image section -->
-            <div class="card__image">
-              <img
-                src="/assets/images/pexels-alexmoliski-27084970.jpg"
-                alt="Post image"
-              />
-            </div>
-
-            <!-- profile details section -->
-            <div class="card__profile-section">
-              <a class="flex-row" href="profile.html">
-                <span class="d-flex"
-                  ><img
-                    class="profile-img"
-                    src="/assets/images/pexels-olly-774909.jpg"
-                    alt=""
-                    srcset=""
-                /></span>
-                <div class="card__profile-details">
-                  <p class="card__profile-details-name">name</p>
-                  <p class="card__profile-details-likes">3523 likes</p>
-                </div>
-              </a>
-              <div>
-                <a class="flex-row favorites-link" href="favorites.html">
-                  <span><i class="fa-regular fa-heart fa-icon"></i></span>
-                </a>
-              </div>
-            </div>
-
-            <!-- overlay section -->
-            <div class="card__overlay">
-              <p class="card__overlay-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
-                incidunt sunt dolor.
-              </p>
-            </div>
-          </div>
-        </article>
-        <article>
-          <div class="card-container">
-            <!-- image section -->
-            <div class="card__image">
-              <img
-                src="/assets/images/pexels-alexmoliski-27084970.jpg"
-                alt="Post image"
-              />
-            </div>
-
-            <!-- profile details section -->
-            <div class="card__profile-section">
-              <a class="flex-row" href="profile.html">
-                <span class="d-flex"
-                  ><img
-                    class="profile-img"
-                    src="/assets/images/pexels-olly-774909.jpg"
-                    alt=""
-                    srcset=""
-                /></span>
-                <div class="card__profile-details">
-                  <p class="card__profile-details-name">name</p>
-                  <p class="card__profile-details-likes">3523 likes</p>
-                </div>
-              </a>
-              <div>
-                <a class="flex-row favorites-link" href="favorites.html">
-                  <span><i class="fa-regular fa-heart fa-icon"></i></span>
-                </a>
-              </div>
-            </div>
-
-            <!-- overlay section -->
-            <div class="card__overlay">
-              <p class="card__overlay-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
-                incidunt sunt dolor.
-              </p>
-            </div>
-          </div>
-        </article>
-        <article>
-          <div class="card-container">
-            <!-- image section -->
-            <div class="card__image">
-              <img
-                src="/assets/images/pexels-alexmoliski-27084970.jpg"
-                alt="Post image"
-              />
-            </div>
-
-            <!-- profile details section -->
-            <div class="card__profile-section">
-              <a class="flex-row" href="profile.html">
-                <span class="d-flex"
-                  ><img
-                    class="profile-img"
-                    src="/assets/images/pexels-olly-774909.jpg"
-                    alt=""
-                    srcset=""
-                /></span>
-                <div class="card__profile-details">
-                  <p class="card__profile-details-name">name</p>
-                  <p class="card__profile-details-likes">3523 likes</p>
-                </div>
-              </a>
-              <div>
-                <a class="flex-row favorites-link" href="favorites.html">
-                  <span><i class="fa-regular fa-heart fa-icon"></i></span>
-                </a>
-              </div>
-            </div>
-
-            <!-- overlay section -->
-            <div class="card__overlay">
-              <p class="card__overlay-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
-                incidunt sunt dolor.
-              </p>
-            </div>
-          </div>
-        </article>
-      </section>
-      </main>
+              </li>
+            </ul>
+          </nav>
+        </footer>
+      </div>
     </div>
   </body>
 </html>

@@ -1,0 +1,60 @@
+.main-content__detail-page {
+  width: 100%;
+  margin: auto;
+  position: relative;
+}
+
+.header-img__detail-page img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  margin-bottom: 60px;
+}
+
+.contet__detail-page {
+  width: 80%;
+  margin: auto;
+  padding-bottom: 60px;
+}
+
+
+.contet__detail-page h3,
+h4 {
+  margin-bottom: 10px;
+}
+
+.contet__detail-page p span {
+  display: block;
+  margin-top: 20px;
+}
+
+.profile-section__detail-page {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 0;
+  margin: auto;
+  border-top: 1px solid  #c2c0c0;
+  
+}
+
+.profile-detail__detail-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.profile-detail__detail-page .card__profile-details {
+  text-align: right;
+  padding-right: 10px;
+}
+
+.profile-img__detail-page {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
