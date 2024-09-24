@@ -1,4 +1,4 @@
-/***************************** helper class */
+/* helper class */
 .d-flex {
   display: flex;
 }
@@ -15,7 +15,7 @@
   gap: 8px;
 }
 
-/********************************* sidebar component */
+/* sidebar component */
 .layout-container {
   display: flex;
   min-height: 100vh;
@@ -78,7 +78,7 @@
   object-fit: cover;
 }
 
-/********************************* main content home */
+/* main content home */
 .main-content {
   width: 80%;
   padding: 40px 30px;
@@ -206,7 +206,7 @@
   font-size: 24px;
 }
 
-/* *************************** media queries for mobile and ipad deveices */
+/* media queries for mobile and ipad deveices */
 /* for mobile devices */
 @media screen and (max-width: 576px) {
   .d-none__mobile {
